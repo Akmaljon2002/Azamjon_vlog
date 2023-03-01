@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap-5.0.2-dist/css/bootstrap.css' %}">
+    <title>About</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row navbar">
+            <div class="col-12 col-md-6 col-sm-6 navbar-icon"><a href="/">Akmaljon's Blog</a></div>
+            <div class="col-12 col-md-6 col-sm-6 navbar-link">
+                <div><a href="/about/">About</a></div>
+                <div><a href="/blog/">Blog</a></div>
+                <div><a href="#">Channel</a></div>
+            </div>
+        </div>
+        <div class="row aboutme">
+            <div class="col-12">
+                <h1>About me</h1>
+            </div>
+        </div>
+        <div class="row main">
+            <div class="col-12">
+                <p>I am Akmaljon Faizullayev, a 21-year-old software engineer from Fergana, Uzbekistan, currently living in Fergana.
+                    <br>
+                    <br>
+                    I am studying at TATUFF.</p>
+                    <img src="{% static 'tatuff.jpg' %}" alt="">
+                    <h5>Codial academy</h5>
+                    <p>It hasn't been long since I started writing website software, but my interest has grown.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2023 akmaljon.com</p>
+        </div>
+    </div>
+</body>
+</html>
